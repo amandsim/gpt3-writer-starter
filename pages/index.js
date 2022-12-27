@@ -37,12 +37,12 @@ const callGenerateEndpoint = async () => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-3 Writer | buildspace</title>
+        <title>Bikin caption dalam sekejap</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Bikin Caption Instagram</h1>
+            <h1>Bikin Caption</h1>
           </div>
           <div className="header-subtitle">
             <h2>Tuliskan beberapa keyword dipisahkan dengan tanda koma </h2>
@@ -93,10 +93,7 @@ const callGenerateEndpoint = async () => {
           rel="noreferrer"
         >
           
-          <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
-          </div>
+         
           
         </a>
       </div>
